@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #0f172a;
+    width : 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-principal {
+    display: none;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #334155;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #84cc16;
+    width: 60%;
+    height: 296px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 30px; 
+    width: 80%;
+  }
+
+  .container-2 {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .container-3 {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #334155;
+    padding: 0 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  input::placeholder {
+    color: #ffffff;
+  }
+  
+  input {
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 20px;
+    border-radius: 5px;
+    outline: none; 
+  }
+
+  select {
+    background-color: #334155;
+    padding: 10px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 20px;
+    border-radius: 5px;
+    appearance: none;
+  }
+
+button {
+    background-color: #84cc16;
+    border-radius: 5px;
+    width: 80%;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.valor-convertido  {
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.valor-br {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+.logo-brasil {
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.seta {
+    margin-bottom: 15px;
+}
+
+.logo-converter {
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        width: 100%;
+        height: 100%;
+        border-radius: 1px;
+    }
+    button {
+        padding: 10px;
+        height: 48PX;
+    }
+}

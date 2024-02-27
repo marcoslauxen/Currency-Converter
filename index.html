@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./javascript.js" defer></script>
+    <title>Conversor</title>
+  </head>
+  <body>
+    <img class="logo-principal" src="./img/logo 1.gif" alt="logo-principal" />
+    <main>
+      <div class="container">
+      <label>Converter <b>de</b></label>
+      <select>
+        <option value="0">R$ Real brasileiro</option>
+      </select>
+    </div>
+    <div class="container-2">
+      <label>Converter <b>para</b></label>
+      <select id="select-moeda">
+        <option value="dolar">US$ Dólar americano</option>
+        <option value="euro">€ Euro</option>
+      </select>
+    </div>
+    <div class="container-3">
+      <label>Valor</label>
+      <input class="input-br" type="text" placeholder="R$ 10.000,00" />
+    </div>
+      <button class="btn-converter" type="button">Converter</button>
+      <section>
+        <div>
+          <img class="logo-brasil" src="./img/brasil 2.png" alt="logo-brasil" />
+          <p>Real</p>
+          <p class="valor-br">R$ 10.000,00</p>
+          <img class="seta" src="./img/Vector.png" alt="seta">
+          <img class="logo-converter" src="./img/estados-unidos (1) 1.png" alt="logo-america" />
+          <p class="texto-convertido" >Dólar Americano</p>
+          <p class="valor-convertido">$2,016.13</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
